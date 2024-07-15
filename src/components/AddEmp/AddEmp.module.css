@@ -1,0 +1,166 @@
+body{
+    background-image: url( "https://images.pexels.com/photos/4317387/pexels-photo-4317387.jpeg?auto=compress&cs=tinysrgb&w=600");
+    
+}
+body:hover{
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 22s;
+    transform-style: calc();
+    background-image: url("https://images.pexels.com/photos/6432109/pexels-photo-6432109.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+
+.sec1{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 45%;
+    margin-left: 30%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.sec1:hover{
+    transition: all;
+    transition-duration: 8s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+    background-image: url("https://images.pexels.com/photos/3723338/pexels-photo-3723338.jpeg?auto=compress&cs=tinysrgb&w=600");
+    border-radius: 10px;
+}
+.p1{
+    border: 2px solid red;
+    padding-left: 80px;
+    font-size: 24px;
+    width: 100px;
+    margin-left: 100px;
+
+}
+.ad4{
+    border: 2px solid rgb(38, 33, 33);
+    margin-left: 30px;
+    width: 80%;
+    
+}
+form{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 500px;
+        background-image: url("https://images.pexels.com/photos/159020/sunset-sky-afterglow-evening-sky-159020.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-color: aqua;
+}
+form:hover{
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    background-image: url("https://images.pexels.com/photos/274021/pexels-photo-274021.jpeg?auto=compress&cs=tinysrgb&w=600");
+    color: white;
+    
+}
+input{
+    /* border: 2px solid red; */
+    height: 24px;
+    
+}
+.in1{
+    width: 70%;
+    margin-left: 20px;
+    
+}
+.in2{
+    width: 83%;
+    height: 40px;
+    margin-left: 20px;
+}
+.g1{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 224px;
+    margin-left: 60px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 93px;
+    background-color: green;
+    color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.btns:hover{
+    background-color: aqua;
+    transition: all;
+transition-duration: 2s;
+transition-timing-function: ease-in-out;
+transition-delay: 0s;
+cursor: pointer;
+}
+.btnr{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 93px;
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+.btnr:hover{
+background-color: white;
+color: black;
+transition: all;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
+transition-delay: 0s;
+cursor: pointer;
+}
+h1{
+    padding-left: 100px;
+    font-size: 30px;
+    color: chartreuse;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1:hover{
+    color: white;
+    transition: all;
+    transition-delay: 2s;
+    transition-duration: 1s;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 15 px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* box-shadow: 0 0 5px #007bff;  */
+}
+
+input[type="text"]:focus, 
+ input[type="email"]:focus, 
+ input[type="number"]:focus, 
+ input[type="password"]:focus { 
+   outline: none; 
+   border-color: #007bff; 
+   box-shadow: 0 0 5px #007bff; 
+ }
+.in5{
+    padding-top: 20px;
+    /* border: 2px solid red; */
+}

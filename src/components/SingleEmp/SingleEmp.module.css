@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.card1{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
+.s1{
+    color: white;
+}
